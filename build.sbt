@@ -2,9 +2,9 @@ name := "rxtx-akka-io"
 
 organization := "ch.inventsoft.akka"
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.10.3"
 
-version := "1.0.4"
+version := "1.0.4-akka2.3.1"
 
 licenses := Seq("The Apache Software License, Version 2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0"))
 
@@ -15,9 +15,9 @@ resolvers += "Sonatype OSS Snapshots" at
   "https://oss.sonatype.org/content/repositories/snapshots"
 
 
-libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.3.4"
+libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.3.1"
 
-libraryDependencies += "com.typesafe.akka" %% "akka-testkit" % "2.3.4" % "test"
+libraryDependencies += "com.typesafe.akka" %% "akka-testkit" % "2.3.1" % "test"
 
 libraryDependencies += "org.rxtx" % "rxtx" % "2.1.7"
 
